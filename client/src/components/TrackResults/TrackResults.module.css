@@ -1,0 +1,19 @@
+.song{
+    cursor: pointer;
+    color: #fff;
+    border-bottom-right-radius: 500px;
+    transition: all.5s ease-in-out;
+    width: 50%;
+}
+.song:hover{
+    width: 95%;
+    background-color: #f5c002;
+    border-bottom-right-radius: 0px;
+
+
+}
+@media screen and (max-width:992px) {
+    .song{
+        width: 80%;
+    }
+}
